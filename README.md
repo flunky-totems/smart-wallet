@@ -7,6 +7,14 @@ It supports
 - Passkey owners and Ethereum address owners
 - Cross-chain replayability for owner updates and other actions: sign once, update everywhere. 
 
+## Project scope
+
+This repository contains experimental smart wallet components and utilities.
+
+The code is intended for development, prototyping, and integration testing. APIs and internal behavior may evolve over time and should not be considered stable unless explicitly documented.
+
+Feedback and contributions focused on correctness and developer experience are welcome.
+
 ## Multiple Owners
 Our smart wallet supports a practically unlimited number of concurrent owners (max 2^256). Each owner can transact independently, without sign off from any other owner. 
 
@@ -84,6 +92,7 @@ Factory and implementation are deployed via [Safe Singleton Factory](https://git
 |-----------|-----------------------------------------|
 | 1.1 | [0xBA5ED110eFDBa3D005bfC882d75358ACBbB85842](https://basescan.org/address/0xBA5ED110eFDBa3D005bfC882d75358ACBbB85842) |
 | 1 | [0x0BA5ED0c6AA8c49038F819E587E2633c4A9F428a](https://basescan.org/address/0x0BA5ED0c6AA8c49038F819E587E2633c4A9F428a) |
+
 
 
 ## Developing 
